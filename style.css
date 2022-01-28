@@ -1,0 +1,102 @@
+body
+{
+    background-color: black;
+}
+.conteneur
+{
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.titre
+{
+    background-image: url("https://s2.qwant.com/thumbr/0x380/4/3/70f372887c27cd12ce66e6ce124fa21bcd5e449a1e67bba29e920ac8277e3d/201310.jpg?u=https%3A%2F%2Fpixy.org%2Fsrc%2F20%2F201310.jpg&q=0&b=1&p=0&a=0");
+    display: flex;
+    margin:auto;
+    border:1px solid red;
+    padding: 10px;
+    
+}
+
+.paragraphe_1
+{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 10px dashed ;
+    border-style: inset;
+}
+
+#p_1
+{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    text-align : center;
+}
+
+#p_2
+{
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    text-align : center;
+}
+
+#p_3
+{
+    width: 100px;
+    height: 100px;
+    background-color:mediumvioletred;
+    text-align : center;
+}
+
+#p_4
+{
+    
+    width: 100px;
+    height: 100px;
+    background-color:lightgrey;
+    text-align : center;
+}
+
+
+.principale
+{
+    padding: 10px;
+    background-color: silver;
+    margin: auto;
+}
+
+.paragraphe_2
+{
+    border: 10px dashed;
+    border-style: outset;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#para_1
+{
+    width: 100px;
+    height: 100px;
+    background-color: darkviolet;
+    text-align : center;
+}
+
+#para_2
+{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    text-align : center;
+}
